@@ -5,12 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './template/header/header.component';
 import { MainComponent } from './template/main/main.component';
+import { ListarProdutosComponent } from './components/produtos/listar-produtos/listar-produtos.component';
+import { CadastrarProdutosComponent } from './components/produtos/cadastrar-produtos/cadastrar-produtos.component';
+import { HomeComponent } from './componets/home/home.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MainComponent
+    MainComponent,
+    ListarProdutosComponent,
+    CadastrarProdutosComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
